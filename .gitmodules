@@ -1,0 +1,3 @@
+[submodule "Socket"]
+	path = Socket
+	url = ssh://git@github.com/SecretSignup/Socket.git

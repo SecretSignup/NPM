@@ -21,7 +21,7 @@ import {
 } from "@common/now-playing_cards";
 ```
 
-[@common/now-playing_cards]: HTTPS://NPMJS.Org/@common/now-playing_cards
+[@common/now-playing_cards]: https://NPMJS.Org/@common/now-playing_cards
 
 ## Changelog
 

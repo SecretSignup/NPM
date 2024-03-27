@@ -1,4 +1,4 @@
-# 👨🏻‍🔧 [@common/now-playing_cards]
+# 👨🏻‍🔧 [@common/now-playing_cards]
 
 ## Installation
 

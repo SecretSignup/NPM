@@ -23,9 +23,11 @@
 		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
 	},
 	"devDependencies": {
-		"typescript-document": "0.0.7",
-		"typescript-esbuild": "0.4.9",
-		"@cloudflare/workers-types": "4.20240320.1"
+		"@playform/build": "0.0.1",
+		"@cloudflare/workers-types": "4.20240329.0"
+	},
+	"optionalDependencies": {
+		"@playform/document": "0.0.2"
 	},
 	"publishConfig": {
 		"access": "public"

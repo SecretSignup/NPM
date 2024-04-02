@@ -23,8 +23,8 @@
 		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.1",
-		"@cloudflare/workers-types": "4.20240329.0"
+		"@cloudflare/workers-types": "4.20240329.0",
+		"@playform/build": "0.0.1"
 	},
 	"optionalDependencies": {
 		"@playform/document": "0.0.2"

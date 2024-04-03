@@ -19,12 +19,12 @@
 	},
 	"type": "module",
 	"scripts": {
-		"Document": "TypeScriptDocument 'Source/**/*.ts'",
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "4.20240329.0",
-		"@playform/build": "0.0.1"
+		"@playform/build": "0.0.2"
 	},
 	"optionalDependencies": {
 		"@playform/document": "0.0.2"

@@ -2,7 +2,7 @@
  * @module Put
  *
  */
-export default interface Type {
+export default interface Interface {
 	/**
 	 * The function converts a nested Map object into a nested plain JavaScript object.
 	 *

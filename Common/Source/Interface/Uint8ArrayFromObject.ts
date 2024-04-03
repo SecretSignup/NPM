@@ -2,7 +2,7 @@
  * @module Uint8ArrayFromObject
  *
  */
-export default interface Type {
+export default interface Interface {
 	/**
 	 * The function `Uint8ArrayFromObject` converts an object with keys as numbers and
 	 * values as Uint8Array elements into a sorted Uint8Array.

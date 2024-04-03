@@ -2,7 +2,7 @@
  * @module Encrypt
  *
  */
-export default interface Type {
+export default interface Interface {
 	/**
 	 * The Encrypt function encrypts data using the AES-GCM algorithm with a given key.
 	 *

@@ -2,7 +2,7 @@
  * @module Decrypt
  *
  */
-export default interface Type {
+export default interface Interface {
 	/**
 	 * The function `Decrypt` is a TypeScript function that uses the Web Crypto API to
 	 * decrypt data using the AES-GCM algorithm.

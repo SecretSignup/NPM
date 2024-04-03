@@ -2,7 +2,7 @@
  * @module Get
  *
  */
-export default interface Type {
+export default interface Interface {
 	/**
 	 * The Get function recursively converts an object into a Map data structure.
 	 *

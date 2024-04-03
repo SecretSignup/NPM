@@ -19,11 +19,11 @@
 	},
 	"type": "module",
 	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"Build": "Build 'Source/**/*.ts'"
+		"Build": "Build 'Source/**/*.ts'",
+		"Document": "Document 'Source/**/*.ts'"
 	},
 	"devDependencies": {
-		"@cloudflare/workers-types": "4.20240329.0",
+		"@cloudflare/workers-types": "4.20240402.0",
 		"@playform/build": "0.0.2"
 	},
 	"optionalDependencies": {

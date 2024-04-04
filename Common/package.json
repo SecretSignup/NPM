@@ -19,7 +19,7 @@
 	},
 	"type": "module",
 	"scripts": {
-		"Build": "Build 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"Document": "Document 'Source/**/*.ts'"
 	},
 	"devDependencies": {

@@ -19,8 +19,8 @@
 	},
 	"type": "module",
 	"scripts": {
-		"prepublishOnly": "Build 'Source/**/*.ts'",
-		"Document": "Document 'Source/**/*.ts'"
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "4.20240403.0",

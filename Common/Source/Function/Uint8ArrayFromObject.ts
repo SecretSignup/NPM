@@ -16,4 +16,4 @@ export default (async (...[_Object]: Parameters<Type>) => {
 	return _Array;
 }) satisfies Type as Type;
 
-import type Type from "../Interface/Uint8ArrayFromObject.js";
+import type Type from "@Interface/Uint8ArrayFromObject.js";

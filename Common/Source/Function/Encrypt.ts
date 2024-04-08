@@ -41,4 +41,4 @@ export default (async (...[Data, Key]: Parameters<Type>) => {
 	};
 }) satisfies Type as Type;
 
-import type Type from "../Interface/Encrypt.js";
+import type Type from "@Interface/Encrypt.js";

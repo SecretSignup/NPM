@@ -23,6 +23,6 @@ export const _Function = ((...[Instance]: Parameters<Type>) => {
 	return Instance;
 }) satisfies Type as Type;
 
-import type Type from "../Interface/Put.js";
+import type Type from "@Interface/Put.js";
 
 export default _Function;

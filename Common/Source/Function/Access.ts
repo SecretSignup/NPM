@@ -24,9 +24,9 @@ export default (async (
 	}
 }) satisfies Type as Type;
 
-import type Type from "../Interface/Access.js";
+import type Type from "@Interface/Access.js";
 
-import type Data from "../Interface/Data.js";
+import type Data from "@Interface/Data.js";
 
 export const { default: Uint8ArrayFromObject } = await import(
 	"./Uint8ArrayFromObject.js"

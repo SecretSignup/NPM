@@ -29,4 +29,4 @@ export const _Function = ((...[Instance]: Parameters<Type>) => {
 
 export default _Function;
 
-import type Type from "../Interface/Get.js";
+import type Type from "@Interface/Get.js";

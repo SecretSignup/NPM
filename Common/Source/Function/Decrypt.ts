@@ -3,7 +3,7 @@
  *
  */
 
-export default (async (...[Data, Key, Vector]: Parameters<Type>) =>
+export default (async (...[Data, Key, Vector]: Parameters<Interface>) =>
 	new Uint8Array(
 		await (
 			await import("@cloudflare/workers-types/experimental")
@@ -27,10 +27,10 @@ export default (async (...[Data, Key, Vector]: Parameters<Type>) =>
 					name: "AES-GCM",
 				},
 				false,
-				["encrypt", "decrypt"],
+				["encrypt", "decrypt"]
 			),
-			Data,
-		),
-	)) satisfies Type as Type;
+			Data
+		)
+	)) satisfies Interface as Interface;
 
-import type Type from "@Interface/Decrypt.js";
+import type Interface from "@Interface/Decrypt.js";

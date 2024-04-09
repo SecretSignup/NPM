@@ -2,11 +2,11 @@
  * @module Put
  *
  */
-export const _Function = ((...[Instance]: Parameters<Type>) => {
+export const _Function = ((...[Instance]: Parameters<Interface>) => {
 	if (Instance instanceof Map) {
 		const _Value = {} as {
 			// biome-ignore lint/suspicious/noExplicitAny:
-			[key: string]: any | ReturnType<Type>;
+			[key: string]: any | ReturnType<Interface>;
 		};
 
 		for (const [Key, Value] of Instance.entries()) {
@@ -21,8 +21,8 @@ export const _Function = ((...[Instance]: Parameters<Type>) => {
 	}
 
 	return Instance;
-}) satisfies Type as Type;
+}) satisfies Interface as Interface;
 
-import type Type from "@Interface/Put.js";
+import type Interface from "@Interface/Put.js";
 
 export default _Function;

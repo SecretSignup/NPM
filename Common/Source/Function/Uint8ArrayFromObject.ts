@@ -2,7 +2,7 @@
  * @module Uint8ArrayFromObject
  *
  */
-export default (async (...[_Object]: Parameters<Type>) => {
+export default (async (...[_Object]: Parameters<Interface>) => {
 	const Keys = Object.keys(_Object)
 		.map(Number)
 		.sort((a, b) => a - b);
@@ -14,6 +14,6 @@ export default (async (...[_Object]: Parameters<Type>) => {
 	});
 
 	return _Array;
-}) satisfies Type as Type;
+}) satisfies Interface as Interface;
 
-import type Type from "@Interface/Uint8ArrayFromObject.js";
+import type Interface from "@Interface/Uint8ArrayFromObject.js";

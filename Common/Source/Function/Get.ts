@@ -2,7 +2,7 @@
  * @module Get
  *
  */
-export const _Function = ((...[Instance]: Parameters<Type>) => {
+export const _Function = ((...[Instance]: Parameters<Interface>) => {
 	if (typeof Instance === "string") {
 		return Instance;
 	}
@@ -25,8 +25,8 @@ export const _Function = ((...[Instance]: Parameters<Type>) => {
 	}
 
 	return _Map;
-}) satisfies Type as Type;
+}) satisfies Interface as Interface;
 
 export default _Function;
 
-import type Type from "@Interface/Get.js";
+import type Interface from "@Interface/Get.js";

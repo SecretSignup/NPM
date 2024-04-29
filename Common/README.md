@@ -1,4 +1,4 @@
-# 👨🏻‍🏭 [Common —]
+# 👨🏻‍🏭 [Common] —
 
 ## Installation
 
@@ -21,7 +21,7 @@ import {
 } from "@common/now-playing_cards";
 ```
 
-[Common —]: httpS://npmjs.org/@common/now-playing_cards
+[Common]: HTTPS://npmjs.org/@common/now-playing_cards
 
 ## Changelog
 

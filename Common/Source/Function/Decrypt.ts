@@ -33,4 +33,4 @@ export default (async (...[Data, Key, Vector]: Parameters<Interface>) =>
 		)
 	)) satisfies Interface as Interface;
 
-import type Interface from "@Interface/Decrypt.js";
+import type Interface from "../Interface/Decrypt.js";

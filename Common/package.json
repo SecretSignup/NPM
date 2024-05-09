@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://github.com/NowPlayingCards/Common.git"
+		"url": "git+https://github.com/NowPlayingCards/Common.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {

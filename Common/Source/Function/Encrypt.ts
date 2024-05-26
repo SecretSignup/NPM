@@ -32,11 +32,11 @@ export default (async (...[Data, Key]: Parameters<Interface>) => {
 						name: "AES-GCM",
 					},
 					false,
-					["encrypt", "decrypt"]
+					["encrypt", "decrypt"],
 				),
 				(await import("buffer")).Buffer.from(JSON.stringify(Data))
-					.buffer
-			)
+					.buffer,
+			),
 		),
 	};
 }) satisfies Interface as Interface;

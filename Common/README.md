@@ -2,7 +2,7 @@
 
 ## Installation
 
-First, install the `@common/now-playing_cards` component like so:
+First, install the `@common/secret-signup` component like so:
 
 ```sh
 npm install -D -E NowPlayingCards/Common#main
@@ -18,10 +18,10 @@ import {
 	Get,
 	Put,
 	Uint8ArrayFromObject,
-} from "@common/now-playing_cards";
+} from "@common/secret-signup";
 ```
 
-[Common]: HTTPS://NPMJS.Org/@common/now-playing_cards
+[Common]: HTTPS://NPMJS.Org/@common/secret-signup
 
 ## Changelog
 

@@ -27,10 +27,10 @@ export default (async (...[Data, Key, Vector]: Parameters<Interface>) =>
 					name: "AES-GCM",
 				},
 				false,
-				["encrypt", "decrypt"]
+				["encrypt", "decrypt"],
 			),
-			Data
-		)
+			Data,
+		),
 	)) satisfies Interface as Interface;
 
 import type Interface from "../Interface/Decrypt.js";

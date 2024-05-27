@@ -8,7 +8,7 @@ First, install the `@common/secret-signup` component like so:
 npm install -D -E NowPlayingCards/Common#main
 ```
 
-**`Index.ts`**
+**`Main.ts`**
 
 ```ts
 import {

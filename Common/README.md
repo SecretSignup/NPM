@@ -1,6 +1,6 @@
 # 👨🏻‍🏭 [Common] —
 
-## Installation
+## 🚀 Installation
 
 First, install the `@common/secret-signup` component like so:
 

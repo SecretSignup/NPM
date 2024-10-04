@@ -1,3 +1,6 @@
+import type Interface from "../Interface/Access.js";
+import type Data from "../Interface/Data.js";
+
 /**
  * @module Access
  *
@@ -12,7 +15,9 @@ export default (async (
 
 		return JSON.parse(
 			(await import("buffer")).Buffer.from(
-				await (await import("./Decrypt.js")).default(
+				await (
+					await import("./Decrypt.js")
+				).default(
 					await Uint8ArrayFromObject(Data),
 					Key ?? "",
 					await Uint8ArrayFromObject(Vector),
@@ -23,10 +28,6 @@ export default (async (
 		console.log(_Error);
 	}
 }) satisfies Interface as Interface;
-
-import type Interface from "../Interface/Access.js";
-
-import type Data from "../Interface/Data.js";
 
 export const { default: Uint8ArrayFromObject } = await import(
 	"./Uint8ArrayFromObject.js"

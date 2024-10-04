@@ -1,3 +1,5 @@
+import type { JsonWebKey } from "@cloudflare/workers-types/experimental/index.js";
+
 /**
  * @module Decrypt
  *
@@ -28,5 +30,3 @@ export default interface Interface {
 		Vector: Uint8Array,
 	): Promise<Uint8Array>;
 }
-
-import type { JsonWebKey } from "@cloudflare/workers-types/experimental/index.js";

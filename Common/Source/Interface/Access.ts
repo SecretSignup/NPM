@@ -1,3 +1,8 @@
+import type {
+	JsonWebKey,
+	KVNamespace,
+} from "@cloudflare/workers-types/experimental/index.js";
+
 /**
  * @module Access
  *
@@ -31,8 +36,3 @@ export default interface Interface {
 		View: string,
 	): unknown;
 }
-
-import type {
-	JsonWebKey,
-	KVNamespace,
-} from "@cloudflare/workers-types/experimental/index.js";

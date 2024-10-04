@@ -1,3 +1,5 @@
+import type Interface from "../Interface/Decrypt.js";
+
 /**
  * @module Decrypt
  *
@@ -32,5 +34,3 @@ export default (async (...[Data, Key, Vector]: Parameters<Interface>) =>
 			Data,
 		),
 	)) satisfies Interface as Interface;
-
-import type Interface from "../Interface/Decrypt.js";

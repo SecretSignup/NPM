@@ -1,3 +1,5 @@
+import type Interface from "../Interface/Get.js";
+
 /**
  * @module Get
  *
@@ -28,5 +30,3 @@ export const _Function = ((...[Instance]: Parameters<Interface>) => {
 }) satisfies Interface as Interface;
 
 export default _Function;
-
-import type Interface from "../Interface/Get.js";

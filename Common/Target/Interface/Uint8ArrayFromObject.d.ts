@@ -1,3 +1,5 @@
+import type _Object from "../Interface/Object.ts";
+
 /**
  * @module Uint8ArrayFromObject
  *
@@ -13,4 +15,3 @@ export default interface Type {
 	 */
 	(_Object: _Object): Promise<Uint8Array>;
 }
-import type _Object from "../Interface/Object.ts";

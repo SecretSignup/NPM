@@ -5,7 +5,7 @@ import type Interface from "../Interface/Decrypt.js";
  *
  */
 
-export default (async (...[Data, Key, Vector]: Parameters<Interface>) =>
+export default (async (...[Data, Key, Vector]) =>
 	new Uint8Array(
 		await (
 			await import("@cloudflare/workers-types/experimental")

@@ -4,7 +4,7 @@ import type Interface from "../Interface/Uint8ArrayFromObject.js";
  * @module Uint8ArrayFromObject
  *
  */
-export default (async (...[_Object]: Parameters<Interface>) => {
+export default (async (...[_Object]) => {
 	const Keys = Object.keys(_Object)
 		.map(Number)
 		.sort((a, b) => a - b);

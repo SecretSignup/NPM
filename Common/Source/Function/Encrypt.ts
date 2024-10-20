@@ -4,7 +4,7 @@ import type Interface from "../Interface/Encrypt.js";
  * @module Encrypt
  *
  */
-export default (async (...[Data, Key]: Parameters<Interface>) => {
+export default (async (...[Data, Key]) => {
 	const Vector = (
 		await import("@cloudflare/workers-types/experimental")
 	).crypto.getRandomValues(new Uint8Array(12));

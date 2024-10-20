@@ -6,7 +6,7 @@ import type Data from "../Interface/Data.js";
  *
  */
 export default (async (
-	...[Key, Identifier, { get }, View]: Parameters<Interface>
+	...[Key, Identifier, { get }, View]
 ) => {
 	try {
 		const { Vector, Data } = (await get(Identifier, {

@@ -4,7 +4,7 @@ import type Interface from "../Interface/Put.js";
  * @module Put
  *
  */
-export const _Function = ((...[Instance]: Parameters<Interface>) => {
+export const _Function = ((...[Instance]) => {
 	if (Instance instanceof Map) {
 		const _Value = {} as {
 			// biome-ignore lint/suspicious/noExplicitAny:

@@ -4,7 +4,7 @@ import type Interface from "../Interface/Get.js";
  * @module Get
  *
  */
-export const _Function = ((...[Instance]: Parameters<Interface>) => {
+export const _Function = ((...[Instance]) => {
 	if (typeof Instance === "string") {
 		return Instance;
 	}

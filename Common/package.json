@@ -23,7 +23,11 @@
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"devDependencies": {
+<<<<<<< HEAD
 		"@cloudflare/workers-types": "4.20250406.0",
+=======
+		"@cloudflare/workers-types": "4.20250415.0",
+>>>>>>> c2a9092eb0965925bf88d97bb23f08620a23ff77
 		"@playform/build": "0.2.3"
 	},
 	"publishConfig": {

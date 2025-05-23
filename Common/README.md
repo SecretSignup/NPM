@@ -21,7 +21,7 @@ import {
 } from "@common/secret-signup";
 ```
 
-[Common]: HTTPS://NPMJS.Org/@common/secret-signup
+[Common]: https://NPMJS.Org/@common/secret-signup
 
 ## Changelog
 

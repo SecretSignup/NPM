@@ -3,9 +3,9 @@
 	"version": "0.0.1",
 	"private": false,
 	"description": "▶️ Now Playing Cards common scripts",
-	"homepage": "HTTPS://GitHub.Com/NowPlayingCards/Common#readme",
+	"homepage": "https://GitHub.Com/NowPlayingCards/Common#readme",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/NowPlayingCards/Common/issues"
+		"url": "https://GitHub.Com/NowPlayingCards/Common/issues"
 	},
 	"repository": {
 		"type": "git",
@@ -15,7 +15,7 @@
 	"author": {
 		"name": "Source ✍🏻 Open 👐🏻",
 		"email": "Source/Open@PlayForm.Cloud",
-		"url": "HTTPS://PlayForm.Cloud"
+		"url": "https://PlayForm.Cloud"
 	},
 	"type": "module",
 	"scripts": {
